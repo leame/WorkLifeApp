@@ -7,7 +7,7 @@ var request = require('request');
 app.set('port', 17941);					//Listens to any traffic at port 17941
 
 
-//GET request sends MySQL table 'employees' to whomever requested it.
+//GET request MySQL table employees
 app.get('/getTable', function(req, res, next) {
 
 		mysql.pool.query('SELECT * FROM employees', function(err, rows, fields) {
@@ -19,7 +19,22 @@ app.get('/getTable', function(req, res, next) {
 			var results = JSON.stringify(rows);
 			res.header('Access-Control-Allow-Origin', '*');
 			res.send(results);
-			
+		});
+});
+
+
+//GET request MySQL table workContacts
+app.get('/getTable', function(req, res, next) {
+
+		mysql.pool.query('SELECT * FROM workContacts', function(err, rows, fields) {
+			if(err) {
+				next(err);
+				return;
+			}
+		
+			var results = JSON.stringify(rows);
+			res.header('Access-Control-Allow-Origin', '*');
+			res.send(results);
 		});
 });
 
