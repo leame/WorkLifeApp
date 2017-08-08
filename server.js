@@ -24,7 +24,7 @@ app.get('/getTable', function(req, res, next) {
 
 
 //GET request MySQL table workContacts
-app.get('/getTable', function(req, res, next) {
+app.get('/getWorkContacts', function(req, res, next) {
 
 		mysql.pool.query('SELECT * FROM workContacts', function(err, rows, fields) {
 			if(err) {
