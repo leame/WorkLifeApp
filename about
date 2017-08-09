@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Work/Life Balance</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  
+   <!--NAV BAR-->
+   <ul class="barul">
+     <li class="barli"><a href="http://web.engr.oregonstate.edu/~emersoel/index.html" class="navHeight navHover" >Home</a></li>
+     <li class="barli"><a href= "http://web.engr.oregonstate.edu/~emersoel/compcreate.html" class="navHeight navHover">Create Company Account</a></li>
+     <li class="barli"><a href="http://web.engr.oregonstate.edu/~emersoel/emplcreate.html" class="navHeight navHover">Create Employee Account</a></li>
+     <li class="barli"><a href="http://web.engr.oregonstate.edu/~emersoel/table.html" class="navHeight navHover">Employee Table</a></li>
+     <li style="float:right"><a href="http://web.engr.oregonstate.edu/~emersoel/about.html" class="navHeight navHover">About</a></li>
+   </ul>
+
+  </head>
+
+  <body>  
+  <p>
+
+	<h3>This website is a work-in-progress created by Group 1 of CS 361's Summer 2017 class.</h3>
+  </p>
+  
+  </body>
+</html>
