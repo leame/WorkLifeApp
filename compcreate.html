@@ -17,28 +17,31 @@
    </head>
    
  <body>
-	<h1>Company Account Creation</h2>
+	<h1>Company Account Creation</h1>
 	<form action="" method="post">
-		<fieldset>Company Information
-			<label> Company Name:
+		<fieldset><b>Company Information</b><br><br>
+			<label>Company Name:
 				<input type="text" name="co_name" size="30" maxlength="100">
 			</label>
 			<br>
 			<br>
-			<label> Domain Name (optional):
+			<label>Domain Name (optional):
 				<input type="text" name="domain_name" size="30" maxlength="100">
-				<div> The company's unique website and email domain </div>
+				<div><i>This is your company's unique website and email domain.</i></div>
 			</label>
 			<br>
-			<label> Company Identifier:
+			<label>Company Identifier:
 				<input type="text" name="co_ID" size="30" maxlength="100">
-				<div> Employees will use this ID to create accounts under under your company </div>
+				<div><i>Your employees will use this ID to create accounts on this website.</i></div>
 			</label>
 			<br>
-			<label> Password:
+			<label>Password:
 				<input type="password" name="co_password" size="30" maxlength="100">
-				<div> Used to log into the company account as an admin </div>
-			</label>
+		    <br><br>
+			<label>Re-enter Password:
+				<input type="password" name="co_password" size="30" maxlength="100">
+			</label><br><br>
+		<input type="submit" value="Submit"/>
 	</form>
  </body>
 </html>
