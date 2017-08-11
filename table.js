@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   var loadInitTable = new XMLHttpRequest(); //Create new request
 
   //Opens GET request to retrieve table data
-  loadInitTable.open("GET", "http://flip2.engr.oregonstate.edu:17941/getTable", true);
+  loadInitTable.open("GET", "http://flip2.engr.oregonstate.edu:3909/getTable", true);
 
   //Event listener for when loaded table data comes back
   loadInitTable.addEventListener('load',function(){
