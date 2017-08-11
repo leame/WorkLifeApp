@@ -10,11 +10,11 @@ $(document).ready(function(){
 		{
 		
 		var data = $('form').serialize();
-		$.post('http://flip2.engr.oregonstate.edu:3909/employee_create', data)
+		$.post('http://flip2.engr.oregonstate.edu:17941/employee_create', data)
 		
 		.done(function(){
 			alert('Employee Account Created');
-			window.location.replace('http://web.engr.oregonstate.edu/~leame/table.html');
+			window.location.replace('http://web.engr.oregonstate.edu/~emersoel/table.html');
 		})
 		
 		.fail(function() {

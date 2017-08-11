@@ -3,7 +3,7 @@ var mysql = require('./connect.js');	//Creates connect object (to connect Node t
 var app = express();					//Calls the express constructor
 var request = require('request');
 
-app.set('port', 3909);					//Listens to any traffic at port 17941
+app.set('port', 17941);					//Listens to any traffic at port 17941
 
 var bodyParser = require('body-parser'); //module allows parsing of forms
 app.use(bodyParser.urlencoded({ extended: false }));
